@@ -4,7 +4,7 @@ from docx import Document
 # *****************МЕНЮ*************************************
 file_name = 'sprvk.xlsx'  # EXEL Файл где хронится Форма 2
 sheet = 'Unit'  # ЛИСТ где СМП\
-number_nz = int(6)
+nz = [1, 5, 6]
 first_year = ''
 last_year = ''
 # *****************СЛОВАРЬ*************************************
@@ -28,43 +28,41 @@ reg = 5  # Строка с Регионом (в Exel)
 russian = []  # Список показателей заболеваемости от нозологии № 1 (С3:L3) до number_nz
 district = []  # Список показателей заболеваемости от нозологии № 1 (С4:L4) до number_nz
 region = []  # Список показателей заболеваемости от нозологии № 1 (С5:L5) до number_nz
+for number_nz in nz:
+    cell_rus = (rus * int(number_nz)) + 1
+    cell_dis = (dis * int(number_nz)) + 1
+    cell_reg = (reg * int(number_nz)) + 1
 
-cell_rus = (rus * number_nz) + 1
-cell_dis = (dis * number_nz) + 1
-cell_reg = (reg * number_nz) + 1
+    while rus < cell_rus or dis < cell_dis or reg < cell_reg:
+        for i in abc:
+            ru = sheet_val[f'{i}{rus}'].value
+            russian.append(ru)
+            di = sheet_val[f'{i}{dis}'].value
+            district.append(di)
+            re = sheet_val[f'{i}{reg}'].value
+            region.append(re)
+        rus += 5
+        dis += 5
+        reg += 5
+    if int(number_nz) == 1:
+        c = 0
+        l = 10
+    else:
+        c = 10 * int(number_nz - 1)  # Индекс значения заболеваемости первого года (first_year)
+        l = 10 * int(number_nz)  # Индекс значения заболеваемости последнего года (last_year)\
 
-while rus < cell_rus or dis < cell_dis or reg < cell_reg:
-    for i in abc:
-        ru = sheet_val[f'{i}{rus}'].value
-        russian.append(ru)
-        di = sheet_val[f'{i}{dis}'].value
-        district.append(di)
-        re = sheet_val[f'{i}{reg}'].value
-        region.append(re)
-    rus += 5
-    dis += 5
-    reg += 5
-if number_nz == 1:
-    c = 0
-    l = 10
-else:
-    c = 10 * (number_nz - 1)  # Индекс значения заболеваемости первого года (first_year)
-    l = 10 * number_nz   # Индекс значения заболеваемости последнего года (last_year)\
+    string_russian = russian[c:l]
+    string_district = district[c:l]
+    string_region = region[c:l]
 
+    # print(c)
+    # print(l)
+    print(f'НОЗОЛОГИЯ # {number_nz}')
+    print(string_russian)
+    # print(len(string_russian))
 
-string_russian = russian[c:l]
-string_district = district[c:l]
-string_region = region[c:l]
+    print(string_district)
+    # print(len(string_district))
 
-
-# print(c)
-# print(l)
-#
-# print(string_russian)
-# print(len(string_russian))
-#
-# print(string_district)
-# print(len(string_district))
-#
-# print(string_region)
-# print(len(string_region))
+    print(string_region)
+    # print(len(string_region))
