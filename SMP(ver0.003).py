@@ -4,7 +4,7 @@ from docx import Document
 # *****************МЕНЮ*************************************
 file_name = 'sprvk.xlsx'  # EXEL Файл где хронится Форма 2
 sheet = 'Unit'  # ЛИСТ где СМП\
-nz = [5, 4, 25, 32, 15, 7, 14, 44, 104, 11]
+nz = [6, 3, 44, 38]
 first_year = ''
 last_year = ''
 # *****************СЛОВАРЬ*************************************
@@ -18,6 +18,7 @@ nz_dict = {1: 'Брюшной тиф', 2: 'Паратифы А,В,С и неут
 
 wb_val = load_workbook(filename=f'{file_name}', data_only=True, )  # Open file
 sheet_val = wb_val[f'{sheet}']  # Open sheet
+# *****************Вытаскиваем стрчку со значенимя заболевания**********************************************************
 
 abc = ['c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l']  # Столбци таблицы
 
@@ -28,6 +29,10 @@ reg = 5  # Строка с Регионом (в Exel)
 russian = []  # Список показателей заболеваемости от нозологии № 1 (С3:L3) до number_nz
 district = []  # Список показателей заболеваемости от нозологии № 1 (С4:L4) до number_nz
 region = []  # Список показателей заболеваемости от нозологии № 1 (С5:L5) до number_nz
+
+line_russian = []
+line_district = []
+line_region = []
 
 while rus < 548 or dis < 549 or reg < 550:
     for i in abc:
@@ -40,6 +45,7 @@ while rus < 548 or dis < 549 or reg < 550:
     rus += 5
     dis += 5
     reg += 5
+
 for number_nz in nz:
     if int(number_nz) == 1:
         c = 0
@@ -48,10 +54,21 @@ for number_nz in nz:
         c = 10 * int(number_nz - 1)  # Индекс значения заболеваемости первого года (first_year)
         l = 10 * int(number_nz)  # Индекс значения заболеваемости последнего года (last_year)\
 
-    string_russian = russian[c:l]
-    string_district = district[c:l]
-    string_region = region[c:l]
-    # print(f'НОЗОЛОГИЯ # {number_nz}')
-    # print(string_russian)
-    # print(string_district)
-    # print(string_region)
+    string_russian = russian[c:l]  # Строчка со значениями заболеваемости нозологии №(nz) по РФ
+    string_district = district[c:l]  # Строчка со значениями заболеваемости нозологии №(nz) по Округу
+    string_region = region[c:l]  # Строчка со значениями заболеваемости нозологии №(nz) по Региону
+
+    line_russian.append(string_russian)
+    line_district.append(string_district)
+    line_region.append(string_region[0: (len(string_region) - 1)])
+
+# **************************************считаем_СМП***************************************************
+for reg in line_region:
+    print(f'Нозология номер {number_nz} {reg}')
+    reg.pop()
+    for i in reg:
+        if i == 0:
+            null = reg.index(0)
+            reg.pop(null)  # Удаляем ноль
+
+# print(reg)
