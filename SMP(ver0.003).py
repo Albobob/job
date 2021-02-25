@@ -4,9 +4,9 @@ from docx import Document
 # *****************МЕНЮ*************************************
 file_name = 'sprvk.xlsx'  # EXEL Файл где хронится Форма 2
 sheet = 'Unit'  # ЛИСТ где СМП\
-nz = [42, 44, 98]
-first_year = ''
-last_year = ''
+nz = [18, 21]
+first_year = '2010'
+last_year = '2019'
 district_text = 'УФО'
 # *****************СЛОВАРЬ*************************************
 
@@ -78,25 +78,54 @@ for number_nz in nz:
 new_list_rf = []  # список значений заболеваемости за последний год по РФ
 new_list_district = []  # список значений заболеваемости за последний год по Округу
 new_list_reg = []  # список значений заболеваемости за последний год по Региону
+new_list_smp = []
 
 for i in line_russian:
     last_year_nz = i[len(i) - 1]
     new_list_rf.append(last_year_nz)  # Добавляем значений заболеваемости за последний год по РФ
-    # print(f'Заболеваемость в России {last_year_nz}')
-
-for i in line_region:
-    last_year_nz = i[len(i) - 1]
-    new_list_reg.append(last_year_nz) # Добавляем значений заболеваемости за последний год по Округу
-    # print(f'Заболеваемость в регионе {last_year_nz}')
 
 for i in line_district:
     last_year_nz = i[len(i) - 1]
-    new_list_district.append(last_year_nz) # Добавляем значений заболеваемости за последний год по Региону
-    # print(f'Заболеваемость в России {last_year_nz}')
+    new_list_district.append(last_year_nz)  # Добавляем значений заболеваемости за последний год по Округу
+
+for i in line_region:
+    last_year_nz = i[len(i) - 1]
+    new_list_reg.append(last_year_nz)  # Добавляем значений заболеваемости за последний год по Региону
+
+# **************************************СЧИТАЕМ___СМП*******************************************************
+
+
+for i in line_region:
+    # print(i)
+    i.pop()
+    smp_region = i
+    smp_list = []
+
+    for element in smp_region:
+        if element != 0:
+            smp_list.append(element)
+
+    smp_list_copy = smp_list.copy()
+
+    maximum = max(smp_list_copy)
+    idx_max = smp_list_copy.index(maximum)
+    smp_list_copy.pop(idx_max)
+
+    minimum = min(smp_list_copy)
+    idx_min = smp_list_copy.index(minimum)
+    smp_list_copy.pop(idx_min)
+
+    smp_value = sum(smp_list_copy) / len(smp_list_copy)
+
+
+    smp = "%.2f" % smp_value
+
+    new_list_smp.append(smp)
+
 
 for i in range(len(nz)):
     print('*******************')
     print(
-        f'{nz_dict.get(nz[i])}:  {new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости *СМП*. Показатель '
+        f'{nz_dict.get(nz[i])}:  {new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости {new_list_smp [i]}. Показатель '
         f'по субъекту в {last_year} году *ВЫШЕ* показателя по Российской Федерации ({new_list_rf[i]} на 100 тыс. населения) в *2.4* раза.'
         f' Заболеваемость {nz_dict.get(nz[i])} В  {district_text} в {last_year} составила {new_list_district[i]}')
