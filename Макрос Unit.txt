@@ -1,0 +1,3248 @@
+
+Range("B1:N1").Select
+Sheets("РФ").Select
+Range("A9").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C3").Select
+Sheets("РФ").Select
+Range("C10:L10").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C4").Select
+Sheets("Округ").Select
+Range("C10:L10").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C5").Select
+Sheets("Регион").Select
+Range("C10:L10").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B6:N6").Select
+Sheets("РФ").Select
+Range("A11").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C8").Select
+Sheets("РФ").Select
+Range("C12:L12").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C9").Select
+Sheets("Округ").Select
+Range("C12:L12").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C10").Select
+Sheets("Регион").Select
+Range("C12:L12").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B11:N11").Select
+Sheets("РФ").Select
+Range("A13").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C13").Select
+Sheets("РФ").Select
+Range("C14:L14").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C14").Select
+Sheets("Округ").Select
+Range("C14:L14").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C15").Select
+Sheets("Регион").Select
+Range("C14:L14").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B16:N16").Select
+Sheets("РФ").Select
+Range("A15").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C18").Select
+Sheets("РФ").Select
+Range("C16:L16").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C19").Select
+Sheets("Округ").Select
+Range("C16:L16").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C20").Select
+Sheets("Регион").Select
+Range("C16:L16").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B21:N21").Select
+Sheets("РФ").Select
+Range("A17").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C23").Select
+Sheets("РФ").Select
+Range("C18:L18").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C24").Select
+Sheets("Округ").Select
+Range("C18:L18").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C25").Select
+Sheets("Регион").Select
+Range("C18:L18").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B26:N26").Select
+Sheets("РФ").Select
+Range("A19").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C28").Select
+Sheets("РФ").Select
+Range("C20:L20").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C29").Select
+Sheets("Округ").Select
+Range("C20:L20").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C30").Select
+Sheets("Регион").Select
+Range("C20:L20").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B31:N31").Select
+Sheets("РФ").Select
+Range("A21").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C33").Select
+Sheets("РФ").Select
+Range("C22:L22").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C34").Select
+Sheets("Округ").Select
+Range("C22:L22").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C35").Select
+Sheets("Регион").Select
+Range("C22:L22").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B36:N36").Select
+Sheets("РФ").Select
+Range("A23").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C38").Select
+Sheets("РФ").Select
+Range("C24:L24").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C39").Select
+Sheets("Округ").Select
+Range("C24:L24").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C40").Select
+Sheets("Регион").Select
+Range("C24:L24").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B41:N41").Select
+Sheets("РФ").Select
+Range("A25").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C43").Select
+Sheets("РФ").Select
+Range("C26:L26").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C44").Select
+Sheets("Округ").Select
+Range("C26:L26").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C45").Select
+Sheets("Регион").Select
+Range("C26:L26").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B46:N46").Select
+Sheets("РФ").Select
+Range("A27").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C48").Select
+Sheets("РФ").Select
+Range("C28:L28").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C49").Select
+Sheets("Округ").Select
+Range("C28:L28").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C50").Select
+Sheets("Регион").Select
+Range("C28:L28").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B51:N51").Select
+Sheets("РФ").Select
+Range("A29").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C53").Select
+Sheets("РФ").Select
+Range("C30:L30").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C54").Select
+Sheets("Округ").Select
+Range("C30:L30").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C55").Select
+Sheets("Регион").Select
+Range("C30:L30").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B56:N56").Select
+Sheets("РФ").Select
+Range("A31").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C58").Select
+Sheets("РФ").Select
+Range("C32:L32").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C59").Select
+Sheets("Округ").Select
+Range("C32:L32").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C60").Select
+Sheets("Регион").Select
+Range("C32:L32").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B61:N61").Select
+Sheets("РФ").Select
+Range("A33").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C63").Select
+Sheets("РФ").Select
+Range("C34:L34").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C64").Select
+Sheets("Округ").Select
+Range("C34:L34").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C65").Select
+Sheets("Регион").Select
+Range("C34:L34").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B66:N66").Select
+Sheets("РФ").Select
+Range("A35").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C68").Select
+Sheets("РФ").Select
+Range("C36:L36").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C69").Select
+Sheets("Округ").Select
+Range("C36:L36").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C70").Select
+Sheets("Регион").Select
+Range("C36:L36").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B71:N71").Select
+Sheets("РФ").Select
+Range("A37").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C73").Select
+Sheets("РФ").Select
+Range("C38:L38").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C74").Select
+Sheets("Округ").Select
+Range("C38:L38").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C75").Select
+Sheets("Регион").Select
+Range("C38:L38").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B76:N76").Select
+Sheets("РФ").Select
+Range("A39").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C78").Select
+Sheets("РФ").Select
+Range("C40:L40").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C79").Select
+Sheets("Округ").Select
+Range("C40:L40").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C80").Select
+Sheets("Регион").Select
+Range("C40:L40").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B81:N81").Select
+Sheets("РФ").Select
+Range("A41").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C83").Select
+Sheets("РФ").Select
+Range("C42:L42").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C84").Select
+Sheets("Округ").Select
+Range("C42:L42").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C85").Select
+Sheets("Регион").Select
+Range("C42:L42").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B86:N86").Select
+Sheets("РФ").Select
+Range("A43").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C88").Select
+Sheets("РФ").Select
+Range("C44:L44").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C89").Select
+Sheets("Округ").Select
+Range("C44:L44").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C90").Select
+Sheets("Регион").Select
+Range("C44:L44").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B91:N91").Select
+Sheets("РФ").Select
+Range("A45").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C93").Select
+Sheets("РФ").Select
+Range("C46:L46").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C94").Select
+Sheets("Округ").Select
+Range("C46:L46").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C95").Select
+Sheets("Регион").Select
+Range("C46:L46").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B96:N96").Select
+Sheets("РФ").Select
+Range("A47").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C98").Select
+Sheets("РФ").Select
+Range("C48:L48").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C99").Select
+Sheets("Округ").Select
+Range("C48:L48").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C100").Select
+Sheets("Регион").Select
+Range("C48:L48").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B101:N101").Select
+Sheets("РФ").Select
+Range("A49").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C103").Select
+Sheets("РФ").Select
+Range("C50:L50").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C104").Select
+Sheets("Округ").Select
+Range("C50:L50").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C105").Select
+Sheets("Регион").Select
+Range("C50:L50").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B106:N106").Select
+Sheets("РФ").Select
+Range("A51").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C108").Select
+Sheets("РФ").Select
+Range("C52:L52").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C109").Select
+Sheets("Округ").Select
+Range("C52:L52").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C110").Select
+Sheets("Регион").Select
+Range("C52:L52").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B111:N111").Select
+Sheets("РФ").Select
+Range("A53").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C113").Select
+Sheets("РФ").Select
+Range("C54:L54").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C114").Select
+Sheets("Округ").Select
+Range("C54:L54").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C115").Select
+Sheets("Регион").Select
+Range("C54:L54").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B116:N116").Select
+Sheets("РФ").Select
+Range("A55").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C118").Select
+Sheets("РФ").Select
+Range("C56:L56").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C119").Select
+Sheets("Округ").Select
+Range("C56:L56").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C120").Select
+Sheets("Регион").Select
+Range("C56:L56").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B121:N121").Select
+Sheets("РФ").Select
+Range("A57").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C123").Select
+Sheets("РФ").Select
+Range("C58:L58").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C124").Select
+Sheets("Округ").Select
+Range("C58:L58").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C125").Select
+Sheets("Регион").Select
+Range("C58:L58").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B126:N126").Select
+Sheets("РФ").Select
+Range("A59").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C128").Select
+Sheets("РФ").Select
+Range("C60:L60").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C129").Select
+Sheets("Округ").Select
+Range("C60:L60").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C130").Select
+Sheets("Регион").Select
+Range("C60:L60").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B131:N131").Select
+Sheets("РФ").Select
+Range("A61").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C133").Select
+Sheets("РФ").Select
+Range("C62:L62").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C134").Select
+Sheets("Округ").Select
+Range("C62:L62").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C135").Select
+Sheets("Регион").Select
+Range("C62:L62").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B136:N136").Select
+Sheets("РФ").Select
+Range("A63").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C138").Select
+Sheets("РФ").Select
+Range("C64:L64").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C139").Select
+Sheets("Округ").Select
+Range("C64:L64").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C140").Select
+Sheets("Регион").Select
+Range("C64:L64").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B141:N141").Select
+Sheets("РФ").Select
+Range("A65").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C143").Select
+Sheets("РФ").Select
+Range("C66:L66").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C144").Select
+Sheets("Округ").Select
+Range("C66:L66").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C145").Select
+Sheets("Регион").Select
+Range("C66:L66").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B146:N146").Select
+Sheets("РФ").Select
+Range("A67").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C148").Select
+Sheets("РФ").Select
+Range("C68:L68").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C149").Select
+Sheets("Округ").Select
+Range("C68:L68").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C150").Select
+Sheets("Регион").Select
+Range("C68:L68").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B151:N151").Select
+Sheets("РФ").Select
+Range("A69").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C153").Select
+Sheets("РФ").Select
+Range("C70:L70").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C154").Select
+Sheets("Округ").Select
+Range("C70:L70").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C155").Select
+Sheets("Регион").Select
+Range("C70:L70").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B156:N156").Select
+Sheets("РФ").Select
+Range("A71").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C158").Select
+Sheets("РФ").Select
+Range("C72:L72").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C159").Select
+Sheets("Округ").Select
+Range("C72:L72").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C160").Select
+Sheets("Регион").Select
+Range("C72:L72").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B161:N161").Select
+Sheets("РФ").Select
+Range("A73").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C163").Select
+Sheets("РФ").Select
+Range("C74:L74").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C164").Select
+Sheets("Округ").Select
+Range("C74:L74").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C165").Select
+Sheets("Регион").Select
+Range("C74:L74").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B166:N166").Select
+Sheets("РФ").Select
+Range("A75").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C168").Select
+Sheets("РФ").Select
+Range("C76:L76").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C169").Select
+Sheets("Округ").Select
+Range("C76:L76").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C170").Select
+Sheets("Регион").Select
+Range("C76:L76").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B171:N171").Select
+Sheets("РФ").Select
+Range("A77").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C173").Select
+Sheets("РФ").Select
+Range("C78:L78").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C174").Select
+Sheets("Округ").Select
+Range("C78:L78").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C175").Select
+Sheets("Регион").Select
+Range("C78:L78").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B176:N176").Select
+Sheets("РФ").Select
+Range("A79").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C178").Select
+Sheets("РФ").Select
+Range("C80:L80").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C179").Select
+Sheets("Округ").Select
+Range("C80:L80").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C180").Select
+Sheets("Регион").Select
+Range("C80:L80").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B181:N181").Select
+Sheets("РФ").Select
+Range("A81").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C183").Select
+Sheets("РФ").Select
+Range("C82:L82").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C184").Select
+Sheets("Округ").Select
+Range("C82:L82").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C185").Select
+Sheets("Регион").Select
+Range("C82:L82").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B186:N186").Select
+Sheets("РФ").Select
+Range("A83").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C188").Select
+Sheets("РФ").Select
+Range("C84:L84").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C189").Select
+Sheets("Округ").Select
+Range("C84:L84").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C190").Select
+Sheets("Регион").Select
+Range("C84:L84").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B191:N191").Select
+Sheets("РФ").Select
+Range("A85").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C193").Select
+Sheets("РФ").Select
+Range("C86:L86").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C194").Select
+Sheets("Округ").Select
+Range("C86:L86").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C195").Select
+Sheets("Регион").Select
+Range("C86:L86").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B196:N196").Select
+Sheets("РФ").Select
+Range("A87").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C198").Select
+Sheets("РФ").Select
+Range("C88:L88").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C199").Select
+Sheets("Округ").Select
+Range("C88:L88").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C200").Select
+Sheets("Регион").Select
+Range("C88:L88").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B201:N201").Select
+Sheets("РФ").Select
+Range("A89").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C203").Select
+Sheets("РФ").Select
+Range("C90:L90").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C204").Select
+Sheets("Округ").Select
+Range("C90:L90").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C205").Select
+Sheets("Регион").Select
+Range("C90:L90").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B206:N206").Select
+Sheets("РФ").Select
+Range("A91").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C208").Select
+Sheets("РФ").Select
+Range("C92:L92").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C209").Select
+Sheets("Округ").Select
+Range("C92:L92").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C210").Select
+Sheets("Регион").Select
+Range("C92:L92").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B211:N211").Select
+Sheets("РФ").Select
+Range("A93").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C213").Select
+Sheets("РФ").Select
+Range("C94:L94").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C214").Select
+Sheets("Округ").Select
+Range("C94:L94").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C215").Select
+Sheets("Регион").Select
+Range("C94:L94").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B216:N216").Select
+Sheets("РФ").Select
+Range("A95").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C218").Select
+Sheets("РФ").Select
+Range("C96:L96").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C219").Select
+Sheets("Округ").Select
+Range("C96:L96").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C220").Select
+Sheets("Регион").Select
+Range("C96:L96").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B221:N221").Select
+Sheets("РФ").Select
+Range("A97").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C223").Select
+Sheets("РФ").Select
+Range("C98:L98").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C224").Select
+Sheets("Округ").Select
+Range("C98:L98").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C225").Select
+Sheets("Регион").Select
+Range("C98:L98").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B226:N226").Select
+Sheets("РФ").Select
+Range("A99").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C228").Select
+Sheets("РФ").Select
+Range("C100:L100").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C229").Select
+Sheets("Округ").Select
+Range("C100:L100").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C230").Select
+Sheets("Регион").Select
+Range("C100:L100").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B231:N231").Select
+Sheets("РФ").Select
+Range("A101").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C233").Select
+Sheets("РФ").Select
+Range("C102:L102").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C234").Select
+Sheets("Округ").Select
+Range("C102:L102").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C235").Select
+Sheets("Регион").Select
+Range("C102:L102").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B236:N236").Select
+Sheets("РФ").Select
+Range("A103").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C238").Select
+Sheets("РФ").Select
+Range("C104:L104").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C239").Select
+Sheets("Округ").Select
+Range("C104:L104").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C240").Select
+Sheets("Регион").Select
+Range("C104:L104").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B241:N241").Select
+Sheets("РФ").Select
+Range("A105").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C243").Select
+Sheets("РФ").Select
+Range("C106:L106").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C244").Select
+Sheets("Округ").Select
+Range("C106:L106").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C245").Select
+Sheets("Регион").Select
+Range("C106:L106").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B246:N246").Select
+Sheets("РФ").Select
+Range("A107").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C248").Select
+Sheets("РФ").Select
+Range("C108:L108").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C249").Select
+Sheets("Округ").Select
+Range("C108:L108").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C250").Select
+Sheets("Регион").Select
+Range("C108:L108").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B251:N251").Select
+Sheets("РФ").Select
+Range("A109").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C253").Select
+Sheets("РФ").Select
+Range("C110:L110").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C254").Select
+Sheets("Округ").Select
+Range("C110:L110").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C255").Select
+Sheets("Регион").Select
+Range("C110:L110").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B256:N256").Select
+Sheets("РФ").Select
+Range("A111").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C258").Select
+Sheets("РФ").Select
+Range("C112:L112").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C259").Select
+Sheets("Округ").Select
+Range("C112:L112").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C260").Select
+Sheets("Регион").Select
+Range("C112:L112").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B261:N261").Select
+Sheets("РФ").Select
+Range("A113").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C263").Select
+Sheets("РФ").Select
+Range("C114:L114").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C264").Select
+Sheets("Округ").Select
+Range("C114:L114").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C265").Select
+Sheets("Регион").Select
+Range("C114:L114").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B266:N266").Select
+Sheets("РФ").Select
+Range("A115").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C268").Select
+Sheets("РФ").Select
+Range("C116:L116").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C269").Select
+Sheets("Округ").Select
+Range("C116:L116").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C270").Select
+Sheets("Регион").Select
+Range("C116:L116").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B271:N271").Select
+Sheets("РФ").Select
+Range("A117").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C273").Select
+Sheets("РФ").Select
+Range("C118:L118").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C274").Select
+Sheets("Округ").Select
+Range("C118:L118").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C275").Select
+Sheets("Регион").Select
+Range("C118:L118").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B276:N276").Select
+Sheets("РФ").Select
+Range("A119").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C278").Select
+Sheets("РФ").Select
+Range("C120:L120").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C279").Select
+Sheets("Округ").Select
+Range("C120:L120").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C280").Select
+Sheets("Регион").Select
+Range("C120:L120").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B281:N281").Select
+Sheets("РФ").Select
+Range("A121").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C283").Select
+Sheets("РФ").Select
+Range("C122:L122").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C284").Select
+Sheets("Округ").Select
+Range("C122:L122").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C285").Select
+Sheets("Регион").Select
+Range("C122:L122").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B286:N286").Select
+Sheets("РФ").Select
+Range("A123").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C288").Select
+Sheets("РФ").Select
+Range("C124:L124").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C289").Select
+Sheets("Округ").Select
+Range("C124:L124").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C290").Select
+Sheets("Регион").Select
+Range("C124:L124").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B291:N291").Select
+Sheets("РФ").Select
+Range("A125").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C293").Select
+Sheets("РФ").Select
+Range("C126:L126").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C294").Select
+Sheets("Округ").Select
+Range("C126:L126").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C295").Select
+Sheets("Регион").Select
+Range("C126:L126").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B296:N296").Select
+Sheets("РФ").Select
+Range("A127").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C298").Select
+Sheets("РФ").Select
+Range("C128:L128").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C299").Select
+Sheets("Округ").Select
+Range("C128:L128").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C300").Select
+Sheets("Регион").Select
+Range("C128:L128").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B301:N301").Select
+Sheets("РФ").Select
+Range("A129").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C303").Select
+Sheets("РФ").Select
+Range("C130:L130").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C304").Select
+Sheets("Округ").Select
+Range("C130:L130").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C305").Select
+Sheets("Регион").Select
+Range("C130:L130").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B306:N306").Select
+Sheets("РФ").Select
+Range("A131").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C308").Select
+Sheets("РФ").Select
+Range("C132:L132").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C309").Select
+Sheets("Округ").Select
+Range("C132:L132").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C310").Select
+Sheets("Регион").Select
+Range("C132:L132").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B311:N311").Select
+Sheets("РФ").Select
+Range("A133").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C313").Select
+Sheets("РФ").Select
+Range("C134:L134").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C314").Select
+Sheets("Округ").Select
+Range("C134:L134").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C315").Select
+Sheets("Регион").Select
+Range("C134:L134").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B316:N316").Select
+Sheets("РФ").Select
+Range("A135").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C318").Select
+Sheets("РФ").Select
+Range("C136:L136").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C319").Select
+Sheets("Округ").Select
+Range("C136:L136").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C320").Select
+Sheets("Регион").Select
+Range("C136:L136").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B321:N321").Select
+Sheets("РФ").Select
+Range("A137").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C323").Select
+Sheets("РФ").Select
+Range("C138:L138").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C324").Select
+Sheets("Округ").Select
+Range("C138:L138").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C325").Select
+Sheets("Регион").Select
+Range("C138:L138").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B326:N326").Select
+Sheets("РФ").Select
+Range("A139").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C328").Select
+Sheets("РФ").Select
+Range("C140:L140").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C329").Select
+Sheets("Округ").Select
+Range("C140:L140").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C330").Select
+Sheets("Регион").Select
+Range("C140:L140").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B331:N331").Select
+Sheets("РФ").Select
+Range("A141").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C333").Select
+Sheets("РФ").Select
+Range("C142:L142").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C334").Select
+Sheets("Округ").Select
+Range("C142:L142").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C335").Select
+Sheets("Регион").Select
+Range("C142:L142").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B336:N336").Select
+Sheets("РФ").Select
+Range("A143").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C338").Select
+Sheets("РФ").Select
+Range("C144:L144").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C339").Select
+Sheets("Округ").Select
+Range("C144:L144").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C340").Select
+Sheets("Регион").Select
+Range("C144:L144").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B341:N341").Select
+Sheets("РФ").Select
+Range("A145").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C343").Select
+Sheets("РФ").Select
+Range("C146:L146").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C344").Select
+Sheets("Округ").Select
+Range("C146:L146").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C345").Select
+Sheets("Регион").Select
+Range("C146:L146").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B346:N346").Select
+Sheets("РФ").Select
+Range("A147").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C348").Select
+Sheets("РФ").Select
+Range("C148:L148").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C349").Select
+Sheets("Округ").Select
+Range("C148:L148").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C350").Select
+Sheets("Регион").Select
+Range("C148:L148").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B351:N351").Select
+Sheets("РФ").Select
+Range("A149").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C353").Select
+Sheets("РФ").Select
+Range("C150:L150").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C354").Select
+Sheets("Округ").Select
+Range("C150:L150").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C355").Select
+Sheets("Регион").Select
+Range("C150:L150").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B356:N356").Select
+Sheets("РФ").Select
+Range("A151").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C358").Select
+Sheets("РФ").Select
+Range("C152:L152").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C359").Select
+Sheets("Округ").Select
+Range("C152:L152").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C360").Select
+Sheets("Регион").Select
+Range("C152:L152").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B361:N361").Select
+Sheets("РФ").Select
+Range("A153").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C363").Select
+Sheets("РФ").Select
+Range("C154:L154").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C364").Select
+Sheets("Округ").Select
+Range("C154:L154").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C365").Select
+Sheets("Регион").Select
+Range("C154:L154").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B366:N366").Select
+Sheets("РФ").Select
+Range("A155").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C368").Select
+Sheets("РФ").Select
+Range("C156:L156").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C369").Select
+Sheets("Округ").Select
+Range("C156:L156").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C370").Select
+Sheets("Регион").Select
+Range("C156:L156").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B371:N371").Select
+Sheets("РФ").Select
+Range("A157").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C373").Select
+Sheets("РФ").Select
+Range("C158:L158").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C374").Select
+Sheets("Округ").Select
+Range("C158:L158").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C375").Select
+Sheets("Регион").Select
+Range("C158:L158").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B376:N376").Select
+Sheets("РФ").Select
+Range("A159").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C378").Select
+Sheets("РФ").Select
+Range("C160:L160").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C379").Select
+Sheets("Округ").Select
+Range("C160:L160").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C380").Select
+Sheets("Регион").Select
+Range("C160:L160").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B381:N381").Select
+Sheets("РФ").Select
+Range("A161").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C383").Select
+Sheets("РФ").Select
+Range("C162:L162").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C384").Select
+Sheets("Округ").Select
+Range("C162:L162").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C385").Select
+Sheets("Регион").Select
+Range("C162:L162").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B386:N386").Select
+Sheets("РФ").Select
+Range("A163").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C388").Select
+Sheets("РФ").Select
+Range("C164:L164").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C389").Select
+Sheets("Округ").Select
+Range("C164:L164").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C390").Select
+Sheets("Регион").Select
+Range("C164:L164").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B391:N391").Select
+Sheets("РФ").Select
+Range("A165").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C393").Select
+Sheets("РФ").Select
+Range("C166:L166").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C394").Select
+Sheets("Округ").Select
+Range("C166:L166").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C395").Select
+Sheets("Регион").Select
+Range("C166:L166").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B396:N396").Select
+Sheets("РФ").Select
+Range("A167").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C398").Select
+Sheets("РФ").Select
+Range("C168:L168").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C399").Select
+Sheets("Округ").Select
+Range("C168:L168").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C400").Select
+Sheets("Регион").Select
+Range("C168:L168").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B401:N401").Select
+Sheets("РФ").Select
+Range("A169").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C403").Select
+Sheets("РФ").Select
+Range("C170:L170").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C404").Select
+Sheets("Округ").Select
+Range("C170:L170").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C405").Select
+Sheets("Регион").Select
+Range("C170:L170").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B406:N406").Select
+Sheets("РФ").Select
+Range("A171").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C408").Select
+Sheets("РФ").Select
+Range("C172:L172").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C409").Select
+Sheets("Округ").Select
+Range("C172:L172").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C410").Select
+Sheets("Регион").Select
+Range("C172:L172").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B411:N411").Select
+Sheets("РФ").Select
+Range("A173").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C413").Select
+Sheets("РФ").Select
+Range("C174:L174").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C414").Select
+Sheets("Округ").Select
+Range("C174:L174").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C415").Select
+Sheets("Регион").Select
+Range("C174:L174").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B416:N416").Select
+Sheets("РФ").Select
+Range("A175").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C418").Select
+Sheets("РФ").Select
+Range("C176:L176").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C419").Select
+Sheets("Округ").Select
+Range("C176:L176").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C420").Select
+Sheets("Регион").Select
+Range("C176:L176").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B421:N421").Select
+Sheets("РФ").Select
+Range("A177").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C423").Select
+Sheets("РФ").Select
+Range("C178:L178").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C424").Select
+Sheets("Округ").Select
+Range("C178:L178").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C425").Select
+Sheets("Регион").Select
+Range("C178:L178").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B426:N426").Select
+Sheets("РФ").Select
+Range("A179").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C428").Select
+Sheets("РФ").Select
+Range("C180:L180").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C429").Select
+Sheets("Округ").Select
+Range("C180:L180").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C430").Select
+Sheets("Регион").Select
+Range("C180:L180").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B431:N431").Select
+Sheets("РФ").Select
+Range("A181").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C433").Select
+Sheets("РФ").Select
+Range("C182:L182").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C434").Select
+Sheets("Округ").Select
+Range("C182:L182").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C435").Select
+Sheets("Регион").Select
+Range("C182:L182").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B436:N436").Select
+Sheets("РФ").Select
+Range("A183").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C438").Select
+Sheets("РФ").Select
+Range("C184:L184").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C439").Select
+Sheets("Округ").Select
+Range("C184:L184").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C440").Select
+Sheets("Регион").Select
+Range("C184:L184").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B441:N441").Select
+Sheets("РФ").Select
+Range("A185").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C443").Select
+Sheets("РФ").Select
+Range("C186:L186").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C444").Select
+Sheets("Округ").Select
+Range("C186:L186").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C445").Select
+Sheets("Регион").Select
+Range("C186:L186").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B446:N446").Select
+Sheets("РФ").Select
+Range("A187").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C448").Select
+Sheets("РФ").Select
+Range("C188:L188").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C449").Select
+Sheets("Округ").Select
+Range("C188:L188").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C450").Select
+Sheets("Регион").Select
+Range("C188:L188").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B451:N451").Select
+Sheets("РФ").Select
+Range("A189").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C453").Select
+Sheets("РФ").Select
+Range("C190:L190").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C454").Select
+Sheets("Округ").Select
+Range("C190:L190").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C455").Select
+Sheets("Регион").Select
+Range("C190:L190").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B456:N456").Select
+Sheets("РФ").Select
+Range("A191").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C458").Select
+Sheets("РФ").Select
+Range("C192:L192").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C459").Select
+Sheets("Округ").Select
+Range("C192:L192").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C460").Select
+Sheets("Регион").Select
+Range("C192:L192").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B461:N461").Select
+Sheets("РФ").Select
+Range("A193").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C463").Select
+Sheets("РФ").Select
+Range("C194:L194").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C464").Select
+Sheets("Округ").Select
+Range("C194:L194").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C465").Select
+Sheets("Регион").Select
+Range("C194:L194").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B466:N466").Select
+Sheets("РФ").Select
+Range("A195").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C468").Select
+Sheets("РФ").Select
+Range("C196:L196").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C469").Select
+Sheets("Округ").Select
+Range("C196:L196").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C470").Select
+Sheets("Регион").Select
+Range("C196:L196").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B471:N471").Select
+Sheets("РФ").Select
+Range("A197").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C473").Select
+Sheets("РФ").Select
+Range("C198:L198").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C474").Select
+Sheets("Округ").Select
+Range("C198:L198").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C475").Select
+Sheets("Регион").Select
+Range("C198:L198").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B476:N476").Select
+Sheets("РФ").Select
+Range("A199").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C478").Select
+Sheets("РФ").Select
+Range("C200:L200").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C479").Select
+Sheets("Округ").Select
+Range("C200:L200").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C480").Select
+Sheets("Регион").Select
+Range("C200:L200").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B481:N481").Select
+Sheets("РФ").Select
+Range("A201").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C483").Select
+Sheets("РФ").Select
+Range("C202:L202").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C484").Select
+Sheets("Округ").Select
+Range("C202:L202").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C485").Select
+Sheets("Регион").Select
+Range("C202:L202").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B486:N486").Select
+Sheets("РФ").Select
+Range("A203").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C488").Select
+Sheets("РФ").Select
+Range("C204:L204").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C489").Select
+Sheets("Округ").Select
+Range("C204:L204").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C490").Select
+Sheets("Регион").Select
+Range("C204:L204").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B491:N491").Select
+Sheets("РФ").Select
+Range("A205").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C493").Select
+Sheets("РФ").Select
+Range("C206:L206").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C494").Select
+Sheets("Округ").Select
+Range("C206:L206").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C495").Select
+Sheets("Регион").Select
+Range("C206:L206").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B496:N496").Select
+Sheets("РФ").Select
+Range("A207").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C498").Select
+Sheets("РФ").Select
+Range("C208:L208").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C499").Select
+Sheets("Округ").Select
+Range("C208:L208").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C500").Select
+Sheets("Регион").Select
+Range("C208:L208").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B501:N501").Select
+Sheets("РФ").Select
+Range("A209").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C503").Select
+Sheets("РФ").Select
+Range("C210:L210").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C504").Select
+Sheets("Округ").Select
+Range("C210:L210").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C505").Select
+Sheets("Регион").Select
+Range("C210:L210").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B506:N506").Select
+Sheets("РФ").Select
+Range("A211").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C508").Select
+Sheets("РФ").Select
+Range("C212:L212").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C509").Select
+Sheets("Округ").Select
+Range("C212:L212").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C510").Select
+Sheets("Регион").Select
+Range("C212:L212").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B511:N511").Select
+Sheets("РФ").Select
+Range("A213").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C513").Select
+Sheets("РФ").Select
+Range("C214:L214").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C514").Select
+Sheets("Округ").Select
+Range("C214:L214").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C515").Select
+Sheets("Регион").Select
+Range("C214:L214").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B516:N516").Select
+Sheets("РФ").Select
+Range("A215").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C518").Select
+Sheets("РФ").Select
+Range("C216:L216").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C519").Select
+Sheets("Округ").Select
+Range("C216:L216").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C520").Select
+Sheets("Регион").Select
+Range("C216:L216").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B521:N521").Select
+Sheets("РФ").Select
+Range("A217").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C523").Select
+Sheets("РФ").Select
+Range("C218:L218").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C524").Select
+Sheets("Округ").Select
+Range("C218:L218").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C525").Select
+Sheets("Регион").Select
+Range("C218:L218").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B526:N526").Select
+Sheets("РФ").Select
+Range("A219").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C528").Select
+Sheets("РФ").Select
+Range("C220:L220").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C529").Select
+Sheets("Округ").Select
+Range("C220:L220").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C530").Select
+Sheets("Регион").Select
+Range("C220:L220").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B531:N531").Select
+Sheets("РФ").Select
+Range("A221").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C533").Select
+Sheets("РФ").Select
+Range("C222:L222").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C534").Select
+Sheets("Округ").Select
+Range("C222:L222").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C535").Select
+Sheets("Регион").Select
+Range("C222:L222").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B536:N536").Select
+Sheets("РФ").Select
+Range("A223").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C538").Select
+Sheets("РФ").Select
+Range("C224:L224").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C539").Select
+Sheets("Округ").Select
+Range("C224:L224").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C540").Select
+Sheets("Регион").Select
+Range("C224:L224").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B541:N541").Select
+Sheets("РФ").Select
+Range("A225").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C543").Select
+Sheets("РФ").Select
+Range("C226:L226").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C544").Select
+Sheets("Округ").Select
+Range("C226:L226").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C545").Select
+Sheets("Регион").Select
+Range("C226:L226").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B546:N546").Select
+Sheets("РФ").Select
+Range("A227").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C548").Select
+Sheets("РФ").Select
+Range("C228:L228").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C549").Select
+Sheets("Округ").Select
+Range("C228:L228").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C550").Select
+Sheets("Регион").Select
+Range("C228:L228").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B551:N551").Select
+Sheets("РФ").Select
+Range("A229").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C553").Select
+Sheets("РФ").Select
+Range("C230:L230").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C554").Select
+Sheets("Округ").Select
+Range("C230:L230").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C555").Select
+Sheets("Регион").Select
+Range("C230:L230").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
+''''''''''''''''''''
+Range("B556:N556").Select
+Sheets("РФ").Select
+Range("A231").Select
+Selection.Copy
+Sheets("Unit").Select
+ActiveSheet.Paste
+Range("C558").Select
+Sheets("РФ").Select
+Range("C232:L232").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _ 
+:= False, Transpose := False
+Range("C559").Select
+Sheets("Округ").Select
+Range("C232:L232").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+Range("C560").Select
+Sheets("Регион").Select
+Range("C232:L232").Select
+Selection.Copy
+Sheets("Unit").Select
+Selection.PasteSpecial Paste := xlPasteValues, Operation := xlNone, SkipBlanks _
+:= False, Transpose := False
+
