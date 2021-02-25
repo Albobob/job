@@ -3,11 +3,13 @@ from docx import Document
 
 # *****************МЕНЮ*************************************
 file_name = 'sprvk.xlsx'  # EXEL Файл где хронится Форма 2
-sheet = 'Unit'  # ЛИСТ где СМП\
-nz = [18, 21]
+sheet = 'Unit'  # ЛИСТ где СМП
+nz = [18, 21, 12, 27, 14, 84]
 first_year = '2010'
 last_year = '2019'
+
 district_text = 'УФО'
+region_text = 'Свердловской обляасти'
 # *****************СЛОВАРЬ*************************************
 
 nz_dict = {1: 'Брюшной тиф', 2: 'Паратифы А,В,С и неуточненный', 3: 'Бактерионосители брюшного тифа, паратифов',
@@ -116,16 +118,34 @@ for i in line_region:
     smp_list_copy.pop(idx_min)
 
     smp_value = sum(smp_list_copy) / len(smp_list_copy)
-
-
     smp = "%.2f" % smp_value
-
     new_list_smp.append(smp)
 
+documents = Document('text_finish.docx')  # Открываем документ
 
+p = documents.add_paragraph()  # Создаем параграф
+p.add_run('МАТЕРИАЛЫ').bold = True  # Записываем в этот пораграф
+p.add_run(f' о деятельности Управления Роспотребнадзора по {region_text}').bold = True
+p.add_run(f' и ФБУЗ «Центр гигиены и эпидемиологии в {region_text}»').bold = True
+p = documents.add_paragraph()  # Создаем параграф
+p.add_run(f'Инфекционная и паразитарная заболеваемость в {first_year} - {last_year}гг.').bold = True
+p = documents.add_paragraph('')  # Создаем параграф
+p.add_run(f'В {last_year} году для некоторых инфекционных болезней отмечается подъем заболеваемости, ')
+p.add_run('что может быть вызвано как ухудшением эпидемиологической ситуации, ')
+p.add_run('так и характерными проявлениями эпидемического процесса отдельных ')
+p.add_run('инфекций или улучшением качества диагностики среди населения. ')
+p.add_run('Так, в многолетней динамике отмечается рост заболеваемости: ')
+
+p = documents.add_paragraph()  # Создаем параграф
 for i in range(len(nz)):
-    print('*******************')
-    print(
-        f'{nz_dict.get(nz[i])}:  {new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости {new_list_smp [i]}. Показатель '
-        f'по субъекту в {last_year} году *ВЫШЕ* показателя по Российской Федерации ({new_list_rf[i]} на 100 тыс. населения) в *2.4* раза.'
-        f' Заболеваемость {nz_dict.get(nz[i])} В  {district_text} в {last_year} составила {new_list_district[i]}')
+    p = documents.add_paragraph()  # Создаем параграф
+    p.add_run(f'{nz_dict.get(nz[i])}:').bold = True
+    p.add_run(f'{new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости {new_list_smp[i]}. Показатель ')
+    p.add_run(f'по субъекту в {last_year} году')
+    p.add_run(f'*ВЫШЕ*').bold = True
+    p.add_run(f'показателя по Российской Федерации ({new_list_rf[i]} на 100 тыс. населения)')
+    p.add_run(f'в *2.4* раза.').bold = True
+    p.add_run(f'  Заболеваемость {nz_dict.get(nz[i])} В  {district_text} в {last_year} составила {new_list_district[i]}')
+
+
+documents.save('text_finish.docx')  # ПОСЛЕДНЯЯ СТРОЧКА В КОДЕ!!!
