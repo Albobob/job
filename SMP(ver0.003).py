@@ -151,6 +151,10 @@ for i in line_region:
     smp_value = sum(smp_list_copy) / len(smp_list_copy)
     smp = "%.2f" % smp_value
     new_list_smp.append(smp)
+# **********************************************ВЫШЕ\НИЖЕ****************************************************
+up_down = {1: 'ниже', 2: 'на уровне', 3: 'выше'}
+c = []
+# **********************************************ТЕКСТОВКА*****************************************************
 
 documents = Document('text_finish.docx')  # Открываем документ
 
@@ -168,13 +172,24 @@ p.add_run('инфекций или улучшением качества диа�
 p.add_run('Так, в многолетней динамике отмечается рост заболеваемости: ')
 
 p = documents.add_paragraph()  # Создаем параграф
+
 for i in range(len(nz)):
     p = documents.add_paragraph()  # Создаем параграф
     p.add_run(f'{nz_dict.get(nz[i])}:').bold = True
     p.add_run(
         f'{new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости {new_list_smp[i]}. Показатель ')
     p.add_run(f'по субъекту в {last_year} году')
-    p.add_run(f'*ВЫШЕ*').bold = True
+
+    c = []
+
+    if new_list_reg[i] > new_list_rf[i]:
+        c.append(up_down.get(3))
+    if new_list_reg[i] < new_list_rf[i]:
+        c.append(up_down.get(1))
+    if new_list_reg[i] == new_list_rf[i]:
+        c.append(up_down.get(2))
+
+    p.add_run(f' {c[0]} ').bold = True
     p.add_run(f'показателя по Российской Федерации ({new_list_rf[i]} на 100 тыс. населения)')
     p.add_run(f'в *2.4* раза.').bold = True
     p.add_run(
