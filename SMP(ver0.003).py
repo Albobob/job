@@ -4,7 +4,7 @@ from docx import Document
 # *****************МЕНЮ*************************************
 file_name = 'sprvk.xlsx'  # EXEL Файл где хронится Форма 2
 sheet = 'Unit'  # ЛИСТ где СМП
-nz = [7, 18, 20, 21, 22, 23, 26, 27, 39, 42, 44, 89, 90, 91, 92, 93, 94, 95, 98]
+nz = [7, 18, 20, 21, 22, 23, 26, 27, 39, 42, 44]
 first_year = '2010'
 last_year = '2019'
 
@@ -153,7 +153,9 @@ for i in line_region:
     new_list_smp.append(smp)
 # **********************************************ВЫШЕ\НИЖЕ****************************************************
 up_down = {1: 'ниже', 2: 'на уровне', 3: 'выше'}
-c = []
+pretext = {1: 'в', 2: 'на', 3: ' '}
+time_percent = {1: 'раза', 2: '%', 3: ''}
+
 # **********************************************ТЕКСТОВКА*****************************************************
 
 documents = Document('text_finish.docx')  # Открываем документ
@@ -180,18 +182,48 @@ for i in range(len(nz)):
         f'{new_list_reg[i]} на 100 тыс. населения при среднемноголетней заболеваемости {new_list_smp[i]}. Показатель ')
     p.add_run(f'по субъекту в {last_year} году')
 
-    c = []
+    up_down_list = []
+    pretext_list = []
+    time_percent_list = []
 
+    time_percent_value_list = []  # Если < 1.5 раз то %, если > 1.5 то разы
+
+    percent = (new_list_reg[i] * 100) / new_list_rf[i] - 100  # Узнаем в процентах
+    time = 0.0  # узнаем во сколько раз больше
     if new_list_reg[i] > new_list_rf[i]:
-        c.append(up_down.get(3))
-    if new_list_reg[i] < new_list_rf[i]:
-        c.append(up_down.get(1))
-    if new_list_reg[i] == new_list_rf[i]:
-        c.append(up_down.get(2))
+        time = new_list_reg[i] / new_list_rf[i]
+        up_down_list.append(up_down.get(3))  # если регион больше РФ то  показатель заболеваемости (up_down) = ВЫШЕ
+    else:
+        time = new_list_rf[i] / new_list_reg[i]
+        up_down_list.append(up_down.get(1))  # если РФ больше региона то  показатель заболеваемости (up_down) = НИЖЕ
 
-    p.add_run(f' {c[0]} ').bold = True
+    if abs(time) > 1.5:
+        pretext_list.append(pretext.get(1))  # в
+        time_value = "%.2f" % abs(time)
+        time_percent_value_list.append(time_value)
+        time_percent_list.append(time_percent.get(1))
+
+    if abs(time) <= 1.5:
+        if 0 < abs(percent) < 15:
+            up_down_list.clear()
+            up_down_list.append(up_down.get(2))
+            pretext_list.append(pretext.get(3))
+            time_percent_value_list.append('')
+            time_percent_list.append(time_percent.get(3))
+        else:
+            pretext_list.append(pretext.get(2))
+            percent_value = "%.2f" % abs(percent)
+            time_percent_value_list.append(percent_value)
+            time_percent_list.append(time_percent.get(2))
+
+    upd = up_down_list[0]  # выше / на уровне / ниже
+    pt_l = pretext_list[0]  # в / на
+    ttp_value = time_percent_value_list[0] # значение
+    tp_l = time_percent_list[0]  # в % или раз
+
+    p.add_run(f' {upd} ').bold = True
     p.add_run(f'показателя по Российской Федерации ({new_list_rf[i]} на 100 тыс. населения)')
-    p.add_run(f'в *2.4* раза.').bold = True
+    p.add_run(f'{pt_l} {time_percent_value_list[0]} {tp_l}').bold = True
     p.add_run(
         f'  Заболеваемость {nz_dict.get(nz[i])} в  {district_text} в {last_year} составила {new_list_district[i]}')
 
